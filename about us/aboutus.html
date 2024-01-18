@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TENS Therapy</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #fffaf4;
+      }
+
+      /* Red color bar with sign-off text */
+      .red-bar {
+        background-color: red;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      .center-text {
+        margin: 0;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fffaf4;
+        padding: 2px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: black;
+        margin: 0 20px;
+      }
+
+      .navbar-center {
+        text-align: center;
+      }
+
+      .circle {
+        background-color: #fffaf4;
+        padding: 2px;
+      }
+
+      /* Section 1 */
+      .section1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .left-section1 {
+        flex: 1;
+        text-align: center;
+      }
+
+      .left-section1 h2 {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+
+      .left-section1 p {
+        padding: 50px;
+        margin-top: 50px;
+      }
+
+      .right-section1 {
+        flex: 1;
+      }
+
+      .right-section1 img {
+        max-width: 100%;
+        height: auto;
+      }
+      /* Line to separate sections */
+      .line {
+        height: 2px;
+        background-color: #000000;
+        margin: 20px 0;
+      }
+
+      /* Section 2 */
+      .section2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .left-section2 {
+        flex: 1;
+      }
+
+      .left-section2 img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .right-section2 {
+        flex: 1;
+        padding: 30px;
+        margin-top: 30px;
+      }
+
+      .right-section2 h2 {
+        font-weight: bold;
+      }
+
+      .right-section2 p {
+        margin-top: 40px;
+      }
+      /* Section 3 - Our social commitment */
+      .section3 {
+        padding: 20px;
+      }
+
+      .section3 h2 {
+        font-weight: bold;
+      }
+
+      .section3 p {
+        margin-top: 10px;
+      }
+
+      .section3 ul {
+        margin-top: 10px;
+        padding-left: 20px;
+      }
+
+      .section3 li {
+        list-style-type: square;
+      }
+      .image-row {
+        display: flex;
+        padding: 20px;
+        overflow-x: hidden; /* Hide horizontal overflow */
+      }
+
+      .image-space {
+        flex: 1;
+        margin-right: 10px; /* Adjust margin as needed for space between images */
+      }
+
+      .image-space:last-child {
+        margin-right: 0; /* Remove margin for the last image */
+      }
+
+      .image-space img {
+        width: 100%; /* Make the image fill the entire space */
+        height: auto;
+      }
+      /* css for footer */
+      footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fffaf4;
+        color: #000000;
+        padding: 20px;
+      }
+
+      .left-section {
+        width: 50%;
+      }
+
+      .left-section h2 {
+        margin-bottom: 10px;
+      }
+
+      .left-section p {
+        margin-bottom: 20px;
+      }
+
+      .email-input {
+        display: flex;
+        align-items: center;
+        border: 2px solid #000000;
+        padding: 5px;
+        max-width: 300px;
+      }
+
+      .email-input input {
+        flex: 1;
+        border: none;
+        padding: 5px;
+      }
+
+      .arrow {
+        margin-left: 10px;
+      }
+
+      .right-section {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .column {
+        width: 30%;
+      }
+
+      .column h3 {
+        margin-bottom: 10px;
+      }
+
+      .list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .list a {
+        color: #000000;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 5px;
+      }
+      /* ... (rest of the CSS code) ... */
+    </style>
+  </head>
+
+  <body>
+    <div class="red-bar">
+      <p class="center-text">Sign in for 20%</p>
+    </div>
+    <div class="navbar">
+      <div class="navbar-left">
+        <a href="#">Shop</a>
+        <a href="#">Product</a>
+        <a href="#">How It Works</a>
+        <a href="#">Blog</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="navbar-center">
+        <p class="circle">Circe</p>
+      </div>
+      <div class="navbar-right">
+        <a href="#">Cart 0</a>
+        <a href="#">EUR/Germany</a>
+        <a href="#">English</a>
+      </div>
+    </div>
+
+    <div class="section1">
+      <div class="left-section1">
+        <h2>
+          Transforming<br />
+          women’s healthcare.
+        </h2>
+        <p>
+          Inspired by the powerful sorceress Circe in Greek mythology, our name
+          reflects her dual nature - a formidable force and a source of healing.
+          This aligns with our mission of reclaiming control over one's body,
+          challenging the status quo, and paving the way to a more equitable and
+          compassionate world.
+        </p>
+      </div>
+      <div class="right-section1">
+        <img src="./Mask group 1.png" alt="Image for Section 1" />
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="section2">
+      <div class="left-section2">
+        <img src="./3B2A5724-Edit-2 3.png" alt="Image for Section 2" />
+      </div>
+      <div class="right-section2">
+        <h2>A shared journey</h2>
+        <p>
+          Driven by a shared passion for women's health, my husband and I
+          founded Circe to tackle gender health disparities. Personal
+          experiences with menstrual pain and observing the widespread neglect
+          of women's healthcare motivated our action. We envisioned a future
+          where women have control over their well-being, breaking free from
+          societal taboos.
+        </p>
+      </div>
+    </div>
+    <!-- ... (previous code) ... -->
+
+    <div class="line"></div>
+
+    <div class="section3">
+      <h2>Our social commitment</h2>
+      <p>
+        Our mission is to close the gender health gap. As a business, we achieve
+        this by sourcing and distributing affordable healthcare solutions for
+        women.
+      </p>
+      <p>
+        However, we also know that we cannot do this alone. We pledge to donate
+        1% of our sales to our charity partner, Pe Stop Association, who fight
+        against menstrual poverty affecting 1 million girls and vulnerable women
+        in Romania. They distribute free packs of menstrual hygiene products,
+        organize courses about the body, and advocate for the law to facilitate
+        access to these basic products for vulnerable people.
+      </p>
+      <p>
+        To that end, we pledge to donate 1% of our sales to a XX that focuses
+        on:
+      </p>
+      <ul>
+        <li>Free feminine hygiene products</li>
+        <li>Education</li>
+        <li>Legislative change</li>
+      </ul>
+    </div>
+    <!-- Row with three spaces for images -->
+    <div class="image-row">
+      <div class="image-space">
+        <img src="./Mask group.png" alt="Image 1" />
+      </div>
+      <div class="image-space">
+        <img src="./Mask group (2).png" alt="Image 2" />
+      </div>
+      <div class="image-space">
+        <img src="./Mask group (1).png" alt="Image 3" />
+      </div>
+    </div>
+    <footer>
+      <div class="left-section">
+        <h2>Circle TENS</h2>
+        <p>Sign-up now for 20% off</p>
+        <div class="email-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+          <div class="arrow">&#10148;</div>
+        </div>
+        <p>@2024 Circle</p>
+      </div>
+
+      <div class="right-section">
+        <div class="column">
+          <h3>Shop</h3>
+          <ul class="list">
+            <li><a href="#">Circe TENS</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3>Support</h3>
+          <ul class="list">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Shipping & return</a></li>
+            <li><a href="#">Refund policy</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3>About</h3>
+          <ul class="list">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Social Impact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
