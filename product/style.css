@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf4;
+}
+/* css for header */
+/* Red color bar with sign-off text */
+.red-bar1 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 5px; /* Adjust padding as needed */
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffaf4;
+  padding: 2px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar1 a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.navbar-center1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.circle1 {
+  background-color: #fffaf4;
+
+}
+/* cart css  */
+.left-section2 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.left-section2 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.main-image2 {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.right-section2 {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-name2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.product-description2 {
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+.features2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.feature2 {
+  text-align: center;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.feature2 img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.counter2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.counter2 button {
+  background-color: #8a63b6;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin: 0 5px;
+}
+
+.add-to-cart2 {
+  background-color: #8a63b6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+/* how it work */
+
+.main-container3 {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section3 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-section3 h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.row3 img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.row3 p {
+  flex: 1;
+}
+.right-section3 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-section3 img {
+  width: 100%;
+  height: auto;
+}
+/* what is tense */
+.main-container4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-container4 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-container4 p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.box4 {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+}
+
+.box4 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.box4 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box4 p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* css for customer  */
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header5 {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.boxes5 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+.box5 {
+  width: 30%;
+  border: 2px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.box5 img {
+  width: 75%;
+  height: auto;
+}
+
+.box5 .content5 {
+  margin-top: 15px;
+}
+
+.arrows5 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.arrows5 span {
+  font-size: 24px;
+}
+
+.scroll-bar5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.point5 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+/* css for questions */
+.faq-container6 {
+  background-color: #ab92b9;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.faq-left6 {
+  flex: 1;
+  padding: 20px;
+}
+
+.faq-right6 {
+  flex: 2;
+  padding: 20px;
+  border-left: 2px solid #ffffff;
+}
+
+.faq-question6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-list6 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-item6 {
+  border-bottom: 1px solid #ffffff; /* Horizontal line between questions */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* css for footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffaf4;
+  color: #000000;
+  padding: 20px;
+}
+
+.left-section7 {
+  width: 50%;
+}
+
+.left-section7 h2 {
+  margin-bottom: 10px;
+}
+
+.left-section7 p {
+  margin-bottom: 20px;
+}
+
+.email-input7 {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 300px;
+}
+
+.email-input7 input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+}
+
+.arrow7 {
+  margin-left: 10px;
+}
+
+.right-section7 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column7 {
+  width: 30%;
+}
+
+.column7 h3 {
+  margin-bottom: 10px;
+}
+
+.list7 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list7 a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
